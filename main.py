@@ -90,7 +90,7 @@ st.markdown(
 st.divider()
 
 uploaded_file = st.file_uploader(
-    "📂 Upload MRI Image (JPG, JPEG, PNG | Max 10MB)"
+    "📂 Upload MRI Image (JPG, JPEG, PNG | Max 20MB)"
 )
 
 if uploaded_file:
